@@ -1,0 +1,1 @@
+<!DOCTYPE html><html><body><h3>🛠️ En construcción: aquí irá la entrega de materiales a una OT.</h3><br><a href='panel.php'>🔙 Volver al Panel</a></body></html>

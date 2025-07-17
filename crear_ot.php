@@ -1,0 +1,1 @@
+<!DOCTYPE html><html><body><h3>🛠️ En construcción: aquí irá la creación de una nueva OT.</h3><br><a href='panel.php'>🔙 Volver al Panel</a></body></html>
