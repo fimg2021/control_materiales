@@ -9,7 +9,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $stmt->execute();
     $result = $stmt->get_result();
     if ($row = $result->fetch_assoc()) {
-        if ($pass === $row["contraseña"]) {
+        if (password_verify($pass, $row["contraseña"])) {
             $_SESSION["usuario"] = $row["usuario"];
             $_SESSION["rol"] = $row["rol"];
             header("Location: panel.php");
